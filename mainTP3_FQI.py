@@ -58,3 +58,6 @@ dataset = collect_episodes(env, n_episodes=100,
 J = estimate_performance(env, policy=fqi, horizon=100, n_episodes=500, gamma=discount)
 print('Policy performance: {}'.format(J))
 plt.show()
+
+
+
